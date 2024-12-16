@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Completo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Importa Axios -->
+</head>
+
+<body>
+    <header>
+        <h1>Gerenciamento de Nomes</h1>
+    </header>
+
+    <main>
+        <!-- Formulário para adicionar nomes -->
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Digite um nome" required>
+            <button type="submit">Adicionar Nome</button>
+        </form>
+
+        <!-- Tabela para exibir os dados -->
+        <h2>Lista de Nomes</h2>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados adicionados dinamicamente aqui -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto Completo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
